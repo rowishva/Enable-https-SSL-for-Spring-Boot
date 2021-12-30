@@ -57,3 +57,5 @@ Postman provides a way to set SSL certificates on a per-domain basis. To manage 
 ![image](https://user-images.githubusercontent.com/67745525/147722490-a5856ecb-2452-442e-a68f-68d29174f6d3.png)
 
 
+## Author
+ * [Roshitha Wishvajith](https://github.com/rowishva?tab=repositories)
