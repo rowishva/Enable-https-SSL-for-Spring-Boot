@@ -26,6 +26,25 @@ server.ssl.key-store-password=password
 server.ssl.keyStoreType=PKCS12
 ```
 
+#### Rest Controller
+Create simple Rest endpoint which return "Hello HTTPS"
+```
+package com.example.demo.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+	
+    @GetMapping("/hello")
+    public String sayHello() { 
+        return "Hello HTTPS";
+    }
+
+}
+```
+Start the server, It is ready to be tested now.</br>
 #### Test in browser
 
 ![image](https://user-images.githubusercontent.com/67745525/147722352-39f9a9be-f82d-42a1-a936-c56cd9218e5d.png)
